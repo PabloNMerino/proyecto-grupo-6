@@ -17,8 +17,8 @@ const {title, price, description, category, image} = productInfo
   return (
 
     <article>
-        <div className='bg-white flex justify-center h-[400px]'>
-            <Image className="object-cover mb-4" src={image} width={200} height={100} alt="Imagen del producto" />
+        <div className='bg-white flex justify-center'>
+            <Image className="object-cover mb-4" src={image} width={200} height={120} alt="Imagen del producto" />
         </div>
         <div className='pt-5 px-4'>
             <h2 className="text-lg font-bold mb-2">{title}</h2>
