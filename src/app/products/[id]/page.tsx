@@ -16,11 +16,11 @@ const {title, price, description, category, image} = productInfo
 
   return (
 
-    <article>
-        <div className='bg-white flex justify-center'>
+    <article className='flex flex-col justify-center items-center w-full'>
+        <div className='bg-white flex justify-center w-full'>
             <Image className="object-cover mb-4" src={image} width={200} height={120} alt="Imagen del producto" />
         </div>
-        <div className='pt-5 px-4'>
+        <div className='pt-5 px-4 mt-10'>
             <h2 className="text-lg font-bold mb-2">{title}</h2>
             <h3 className="text-lg font-bold mb-2">{category}</h3>
             <p className="text-lg mb-2">{description}</p>

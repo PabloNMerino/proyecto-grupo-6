@@ -13,6 +13,7 @@ const NavBar = () => {
             <ul className="flex gap-3">
                 <li className='hover:text-2xl transition-all'><Link href='/'>Home</Link></li>
                 <li className='hover:text-2xl transition-all'><Link href='/products'>Products</Link></li>
+                <li className='hover:scale-150 transition-all'><Link href='/cart'><img src="https://th.bing.com/th/id/OIP.u7tW7Vw1Cr6O2mVDzRPb9wHaHa?rs=1&pid=ImgDetMain" alt=""  className='size-6 rounded-md'/></Link></li>
             </ul>
         </div>
     </nav>
